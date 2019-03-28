@@ -6,8 +6,7 @@ var lettersArray = ["A", "B", "C"]
 var names:[String] = ["Apple", "Microsoft", "Sony", "Lenovo", "Asus"]
 
 func sortedArray (inputArray: [String]) -> Array<String>  {
-    let testArray = inputArray
-    let resultArray: [String] = Array(testArray.reversed())
+    let resultArray: [String] = Array(inputArray.reversed())
     print(resultArray)
     return  resultArray
 }
